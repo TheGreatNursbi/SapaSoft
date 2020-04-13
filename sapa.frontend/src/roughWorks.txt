@@ -1,0 +1,33 @@
+App structure
+--------------
+
+src
+----> actions
+|   |
+|   | -- api.js (handle all http request)      
+|   | -- builder.js (Redux actions & action creators)
+|   | -- store.js (configuration redux store)
+|
+----> components
+|   |
+|   | -- builderForm.js (form operations)
+|   | -- builders.js (list of records)
+|   | -- useForm.js (handles common form operations)
+|
+|
+----> reducers
+|   |
+|   | -- builder.js
+|   | --index.js
+|
+| -- App.js
+| -- index.js
+| -- index.css
+
+To install = redux, react-redux, redux-thunk
+
+action - create, update, delete etc, data
+reducers
+store
+
+component -> dispatch(action) -> reducer -> store.update(date)

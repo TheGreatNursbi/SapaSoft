@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20200411103836_initial migration.cs" />
+    <Compile Remove="Migrations\20200411103836_initial migration.Designer.cs" />
+    <Compile Remove="Migrations\20200411111625_initial migration.cs" />
+    <Compile Remove="Migrations\20200411111625_initial migration.Designer.cs" />
+    <Compile Remove="Migrations\20200411112812_Data seeding.cs" />
+    <Compile Remove="Migrations\20200411112812_Data seeding.Designer.cs" />
+    <Compile Remove="Migrations\20200411113848_Data seeding.cs" />
+    <Compile Remove="Migrations\20200411113848_Data seeding.Designer.cs" />
+    <Compile Remove="Migrations\20200411114510_Data seeding.cs" />
+    <Compile Remove="Migrations\20200411114510_Data seeding.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.3">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="3.1.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.3">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+</Project>
